@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Component</title>
+    <link type = "text/css" rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    
+    <main class = "projectcontainer">
+        <header>
+            <h1>
+                Learn to code by watching others
+            </h1>
+            <p class = "headertext">
+                See how experienced developers solve problems in real time. Watching scripted tutorials is great, but understanding how 
+                developers think is invaluable,
+            </p>
+        </header>
+
+        <section>
+            <div class = "trialcontainer">
+                <p class = "trialinfo">
+                    Try it for free 7 days <span>then $20/mo. thereafter</span>
+                </p>
+            </div>
+            <div class = "formsandtext">
+                <forms action = "" method = "POST">
+                    <input type = "text" name = "user-firstname" placeholder = "First Name" id = "user-firstname" required > 
+                    <label for = "user-firstname" id = "firstname-label">First Name cannot be empty</label>
+                    <br>
+                    <input type = "text" name = "user-lastname" placeholder = "Last Name" id = "user-lastname" required>
+                    <label for = "user-lastname" id = "lastname-label">Last Name cannot be empty</label>
+                    <br>
+                    <input type = "email" name = "user-mail" placeholder = "Email Address" id = "user-mail" required> 
+                    <label for = "user-mail" id = "email-label">Looks like this is not an email</label>
+                    <br>
+                    <input type = "password" name = "user-password" placeholder = "Password" id = "user-password">
+                    <label for = "user-password" id = "password-label">Password cannot be empty</label>
+                    <br>
+                </forms>
+                <button>CLAIM YOUR FREE TRIAL</button>
+                <p class = "bottomtext">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src = "script.js"></script>
+</html>
